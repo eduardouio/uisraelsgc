@@ -1,4 +1,4 @@
-<h1> Proyecto NAC Sistemas Grupo 1 </h1>
+<h1> Proyecto NAC Sistemas & Electrónica <b>Grupo 1</b> </h1>
 
 <h2>Tema:</h2>
 <h3>Diseño de un Sistema Gestor de Contenidos <b>(SGC)</b> para el manejo y administracion de una página web
