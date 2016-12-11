@@ -1,0 +1,160 @@
+MPX,Microsoft Project for Windows,4.0,ANSI
+10,$,1,2,.,","
+11,2,0,1,"8,00","40,00","$10,00/h","$15,00/h",1,0
+12,1,1,480,/,:,am,pm,20,20
+20,Standard,0,1,1,1,1,1,1
+25,1
+25,2,08:00,12:00,13:00,17:00
+25,3,08:00,12:00,13:00,17:00
+25,4,08:00,12:00,13:00,17:00
+25,5,08:00,12:00,13:00,17:00
+25,6,08:00,12:00,13:00,17:00
+25,7,08:00,12:00,13:00,17:00
+30,Project1,,,Standard,03/12/2012,15/08/2013,0,11/12/2016,,"$0,00","$0,00","$0,00",0h,0h,0h,0%,0d,0d,0d,0%,,,,,0d,0d
+40,Nombre,Correo electrónico,ID,ID Único
+41,1,11,40,49
+50,Eduardo Villota,eduardouio@hotmail.com,1,1
+50,Desarrollador,eduardouio@hotmail.com,2,2
+50,Documentador,eduardouio@hotmail.com,3,3
+50,Pruebas,eduardouio@hotmail.com,4,4
+50,Diseñador,eduardouio@hotmail.com,5,5
+50,Análisis,eduardouio@hotmail.com,6,6
+60,Nombre,WBS,Nivel de Esquema,Costo,Duración,Duración Real,Duración Restante,% Completado,Comienzo,Fin,Predecesoras,Fijo,Hito,ID,Tipo de Restricción,Prioridad,ID Único,Número de Esquema,Summary
+61,1,2,3,30,40,42,43,44,50,51,70,80,81,90,91,95,98,99,120
+70,,0,0,,256d,,,,03/12/2012,15/08/2013,,No,,0,Lo antes posible,,0,0
+70,Recoleccion de Informacion,1,1,"$0,00",2d,0d,2d,0%,03/12/2012,04/12/2012,,No,No,1,Lo antes posible,Alta,153,1
+71,"El desarrollo de esta tarea está enfocado en la obtención de la mayor cantidad de información acerca del funcionamiento de los CMS, se estudiará el funcionamiento de CMS libres y ligeros como WolfCMS y Snews para comprender su funcionamiento  permitiéndome de esta manera tener un producto más completo."
+75,3,1,2d,,0d,,,,,03/12/2012,04/12/2012,,3
+76,,0,0,NA,NA
+75,6,1,2d,,0d,,,,,03/12/2012,04/12/2012,,6
+76,,0,0,NA,NA
+70,Analisis de La Informacion,2,1,"$0,00",6d,0d,6d,0%,05/12/2012,11/12/2012,1,No,No,2,Lo antes posible,Media,2,2
+71,"Una vez reunida toda la documentación posible se procede al los primeros diseños del funcionamiento del sistema, se realiza un análisis inductivo para establecer los componentes de la aplicación creando los siguientes diagramas:•	Casos de Uso•	Diagrama de Clases•	Diagrama de componentes•	Diagrama de Implementación•	Diagrama Borrador Base Datos"
+75,1,1,6d,,0d,,,,,05/12/2012,11/12/2012,,1
+76,,0,0,NA,NA
+75,6,1,6d,,0d,,,,,05/12/2012,11/12/2012,,6
+76,,0,0,NA,NA
+70,Analisis de Prestaciones Sistema,3,1,"$0,00",2d,0d,2d,0%,05/12/2012,06/12/2012,1,No,No,3,Lo antes posible,Media,15,3
+71,Generamos las funcionalidades del sistema lo cual nos arroga un diagrama del la estructura del sistema
+75,1,1,2d,,0d,,,,,05/12/2012,06/12/2012,,1
+76,,0,0,NA,NA
+75,3,1,2d,,0d,,,,,05/12/2012,06/12/2012,,3
+76,,0,0,NA,NA
+75,6,1,2d,,0d,,,,,05/12/2012,06/12/2012,,6
+76,,0,0,NA,NA
+70,Analisis de Requerimientos del Sistema,4,1,"$0,00",2d,0d,2d,0%,07/12/2012,08/12/2012,3,No,No,4,Lo antes posible,Media,14,4
+71,Se especifica lo que el sistema necesita para funcionar en cuanto a hardware y personal humano
+75,1,1,2d,,0d,,,,,07/12/2012,08/12/2012,,1
+76,,0,0,NA,NA
+75,6,1,2d,,0d,,,,,07/12/2012,08/12/2012,,6
+76,,0,0,NA,NA
+70,Realizar Pruebas a los Modelos,5,1,"$0,00",3d,0d,3d,0%,12/12/2012,14/12/2012,"2,4",No,No,5,Lo antes posible,Alta,11,5
+71,"Se someten a prueba todos los modelos obtenidos, para comprobar que responden de acuerdo a las especificaciones establecidas para el sistema.Se ingresa información de prueba al modelo de la base de datos para que al igual que con los modelos poder comprobar si su estructura es la necesaria y responde a las características del sistema.Como resultado de este proceso se obtiene el diagrama general del sistema"
+75,1,1,3d,,0d,,,,,12/12/2012,14/12/2012,,1
+76,,0,0,NA,NA
+75,3,1,3d,,0d,,,,,12/12/2012,14/12/2012,,3
+76,,0,0,NA,NA
+75,4,1,3d,,0d,,,,,12/12/2012,14/12/2012,,4
+76,,0,0,NA,NA
+70,Requerimientos de Vistas de Administracion y de Usuarios,6,1,"$0,00",9d,0d,9d,0%,15/12/2012,25/12/2012,5,No,No,6,Lo antes posible,Media,28,6
+71,"Tomando el análisis de los requerimientos del sistema se procede a crear un esquema de las vistas definiendo lo que estas deben tener y las facilidades que deben prestar a los usuarios con los que interactué, al final de esta tarea se definen dos tipos de vistas •	Vista de Administrador •	Vistas de Usuario"
+75,1,1,9d,,0d,,,,,15/12/2012,25/12/2012,,1
+76,,0,0,NA,NA
+75,3,1,9d,,0d,,,,,15/12/2012,25/12/2012,,3
+76,,0,0,NA,NA
+75,5,1,9d,,0d,,,,,15/12/2012,25/12/2012,,5
+76,,0,0,NA,NA
+75,6,1,9d,,0d,,,,,15/12/2012,25/12/2012,,6
+76,,0,0,NA,NA
+70,Desarrollo e Implementacion,7,1,"$0,00",181d,0d,181d,0%,26/12/2012,24/07/2013,,No,No,7,Lo antes posible,Media,41,7,Sí­
+71,Desarrollo del Sistema	
+70,Implementar Funciones en la Base de Datos,7.1,2,"$0,00",4d,0d,4d,0%,26/12/2012,29/12/2012,6,No,No,8,Lo antes posible,Media,25,7.1
+71,"Una vez terminada la fase de diseño (se distingue por el color azul en los diagramas) se empieza a implementar la base de datos final a la misma que se agrega funcionalidades con la ayuda de Funciones Almacenas, Vistas y Disparadores encaso de ser necesario, terminada esta actividad tenemos un diagrama de clase final y real de nuestro sistema."
+75,1,1,4d,,0d,,,,,26/12/2012,29/12/2012,,1
+76,,0,0,NA,NA
+75,2,1,4d,,0d,,,,,26/12/2012,29/12/2012,,2
+76,,0,0,NA,NA
+75,6,1,4d,,0d,,,,,26/12/2012,29/12/2012,,6
+76,,0,0,NA,NA
+70,Diseño de Vistas Administrador y Usuarios,7.2,2,"$0,00",1d,0d,1d,0%,31/12/2012,31/12/2012,8,No,No,9,Lo antes posible,Alta,29,7.2
+71,Se definen las necesidades a las cuales las interfaces de administrador deben responder especificado la estructura de las vistas.Las interfaces del administrador deben contener al menos las siguientes prestaciones:•	Crear paginas•	Crear contenido para las paginas•	Editar y/o eliminar contenidos existentes•	Manejar Comentarios de Usuarios•	Copias de seguridad de ContenidosLas interfaces de los Usuarios deben contener al menos las siguientes prestaciones:•	Navegar con fluidez a través de los contenidos•	Comentar los contenidos
+75,1,1,1d,,0d,,,,,31/12/2012,31/12/2012,,1
+76,,0,0,NA,NA
+75,6,1,1d,,0d,,,,,31/12/2012,31/12/2012,,6
+76,,0,0,NA,NA
+70,Maquetar Vistas Administrador,7.3,2,"$0,00",13d,0d,13d,0%,01/01/2013,15/01/2013,9,No,No,10,Lo antes posible,Media,30,7.3
+71,Se crea el diseño para las vistas de administrador con la ayuda del framework Bootstrap de Twitter
+75,1,1,13d,,0d,,,,,01/01/2013,15/01/2013,,1
+76,,0,0,NA,NA
+75,5,1,13d,,0d,,,,,01/01/2013,15/01/2013,,5
+76,,0,0,NA,NA
+70,Maquetar Vista Usuario,7.4,2,"$0,00",6d,0d,6d,0%,16/01/2013,22/01/2013,10,No,No,11,Lo antes posible,Media,31,7.4
+71,Se crea el diseño para las vistas de usuario con la ayuda del framework Bootstrap de Twitter
+75,1,1,6d,,0d,,,,,16/01/2013,22/01/2013,,1
+76,,0,0,NA,NA
+75,5,1,6d,,0d,,,,,16/01/2013,22/01/2013,,5
+76,,0,0,NA,NA
+70,Maquetar Vistas Adicionales,7.5,2,"$0,00",5d,0d,5d,0%,23/01/2013,28/01/2013,11,No,No,12,Lo antes posible,Media,32,7.5
+71,"Se crea el diseño para las vistas de adicionales con la ayuda del framework Bootstrap de Twitter, las vistas son:•	Error 404•	Contacto•	Presentación de Errores y Advertencias"
+75,1,1,5d,,0d,,,,,23/01/2013,28/01/2013,,1
+76,,0,0,NA,NA
+75,5,1,5d,,0d,,,,,23/01/2013,28/01/2013,,5
+76,,0,0,NA,NA
+70,Establecer La Estructura y el Manejo de las Vistas,7.6,2,"$0,00",11d,0d,11d,0%,29/01/2013,09/02/2013,12,No,No,13,Lo antes posible,Media,33,7.6
+71,"Se establece la forma más optima de manejar las vistas, separándolas en fragmentos de código para luego armarlas de acuerdo a las necesidades."
+75,1,1,11d,,0d,,,,,29/01/2013,09/02/2013,,1
+76,,0,0,NA,NA
+75,2,1,11d,,0d,,,,,29/01/2013,09/02/2013,,2
+76,,0,0,NA,NA
+75,3,1,11d,,0d,,,,,29/01/2013,09/02/2013,,3
+76,,0,0,NA,NA
+70,Diseño Basico del Sistema,7.7,2,"$0,00",52d,0d,52d,0%,29/01/2013,29/03/2013,12,No,No,14,Lo antes posible,Alta,34,7.7
+71,"Establecer la estructura del sistema, para lograr un sistema robusto y compatible las herramientas usadas son las siguientes:•	HtmlBoilerplate•	CodeIgniter•	BootstrapCon esto obtengo una estructura definida para mi sistema."
+75,1,1,52d,,0d,,,,,29/01/2013,29/03/2013,,1
+76,,0,0,NA,NA
+75,2,1,52d,,0d,,,,,29/01/2013,29/03/2013,,2
+76,,0,0,NA,NA
+75,3,1,52d,,0d,,,,,29/01/2013,29/03/2013,,3
+76,,0,0,NA,NA
+70,Implementación de Diagramas de Clases,7.8,2,"$0,00",22d,0d,22d,0%,30/03/2013,24/04/2013,"13,14",No,No,15,Lo antes posible,Media,35,7.8
+71,"Se implementa los modelos, convirtiendo los gráficos en códigos de programación"
+75,2,1,22d,,0d,,,,,30/03/2013,24/04/2013,,2
+76,,0,0,NA,NA
+75,3,1,22d,,0d,,,,,30/03/2013,24/04/2013,,3
+76,,0,0,NA,NA
+70,Depuracion Sistema,7.9,2,"$0,00",37d,0d,37d,0%,25/04/2013,06/06/2013,15,No,No,16,Lo antes posible,Alta,38,7.9
+71,Se buscan y corrigen errores de programación
+75,1,1,37d,,0d,,,,,25/04/2013,06/06/2013,,1
+76,,0,0,NA,NA
+75,2,1,37d,,0d,,,,,25/04/2013,06/06/2013,,2
+76,,0,0,NA,NA
+70,Pruebas de Funcionamiento,7.10,2,"$0,00",12d,0d,12d,0%,07/06/2013,20/06/2013,16,No,No,17,Lo antes posible,Media,37,7.10
+71,Se comprueba que lo obtenido sea lo mismo que lo planeado.
+75,1,1,12d,,0d,,,,,07/06/2013,20/06/2013,,1
+76,,0,0,NA,NA
+75,2,1,12d,,0d,,,,,07/06/2013,20/06/2013,,2
+76,,0,0,NA,NA
+75,4,1,12d,,0d,,,,,07/06/2013,20/06/2013,,4
+76,,0,0,NA,NA
+70,Implementar Funciones no estipuladas,7.11,2,"$0,00",25d,0d,25d,0%,21/06/2013,19/07/2013,17,No,No,18,Lo antes posible,Máxima,40,7.11
+71,Se implementan funciones que no se estipularon en el momento de diseño del sistema
+75,1,1,25d,,0d,,,,,21/06/2013,19/07/2013,,1
+76,,0,0,NA,NA
+75,2,1,25d,,0d,,,,,21/06/2013,19/07/2013,,2
+76,,0,0,NA,NA
+75,3,1,25d,,0d,,,,,21/06/2013,19/07/2013,,3
+76,,0,0,NA,NA
+75,6,1,25d,,0d,,,,,21/06/2013,19/07/2013,,6
+76,,0,0,NA,NA
+70,Distribucion Sistema,7.12,2,"$0,00",4d,0d,4d,0%,20/07/2013,24/07/2013,18,No,No,19,Lo antes posible,Media,39,7.12
+71,"Se pasa a limpio la documentación, se genera manuales de administrador y de usuario, se procede con el empaquetamiento y distribución del sistema para entornos de producción."
+75,1,1,4d,,0d,,,,,20/07/2013,24/07/2013,,1
+76,,0,0,NA,NA
+75,2,1,4d,,0d,,,,,20/07/2013,24/07/2013,,2
+76,,0,0,NA,NA
+75,3,1,4d,,0d,,,,,20/07/2013,24/07/2013,,3
+76,,0,0,NA,NA
+70,Correcciones De Problemas,8,1,"$0,00",16d,0d,16d,0%,24/07/2013,10/08/2013,,No,No,20,Lo antes posible,Media,151,8
+71,Se corrigen posibles problemas no detectados en la fase de depuración
+70,Fin de Proyecto,9,1,"$0,00",1d,0d,1d,0%,15/08/2013,15/08/2013,,No,No,21,Lo antes posible,Media,152,9
+71,Se termina el Proyecto y se entrega como un producto optimo para su distribucion

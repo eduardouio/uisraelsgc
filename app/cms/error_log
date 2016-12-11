@@ -1,0 +1,1 @@
+[23-Sep-2013 19:04:16 America/Guayaquil] PHP Fatal error:  Call to undefined function base_url() in /home/liposerv/public_html/ispade/admin/appweb/errors/error_404.php on line 148

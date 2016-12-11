@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Ispade" company="Ispade.edu.ec" webLink="http://ispade.edu.ec" view-date="2012-12-01" view-index="0" gantt-divider-location="458" resource-divider-location="300" version="2.0" locale="es">
+    <description><![CDATA[Creación de un CMS (Content System Management) Gestor de contenidos con CodeIgniter y Bootstrap.
+Trabajo de fin de carrera, en el que se crea un CMS con la ayuda de Frameworks, es una forma de demostrar lo fácil que es trabajar con tecnologías potentes de manera rápida
+]]></description>
+    <view zooming-state="default:8" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="49" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="26" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="24" order="2"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="50" order="0"/>
+        <field id="1" name="Función" width="50" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <calendar id="1" name="default">
+                <default-week sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+                <only-show-weekends value="false"/>
+                <overriden-day-types/>
+                <days/>
+            </calendar>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Recoleccion de Informacion" color="#ffffcc" meeting="false" start="2012-12-03" duration="2" complete="0" priority="2" expand="true">
+            <notes><![CDATA[El desarrollo de esta tarea está enfocado en la obtención de la mayor cantidad de información acerca del funcionamiento de los CMS, se estudiará el funcionamiento de CMS libres y ligeros como WolfCMS y Snews para comprender su funcionamiento  permitiéndome de esta manera tener un producto más completo.]]></notes>
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
+            <depend id="15" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="2" name="Analisis de La Informacion" color="#66ccff" meeting="false" start="2012-12-05" duration="6" complete="0" expand="true">
+            <notes><![CDATA[Una vez reunida toda la documentación posible se procede al los primeros diseños del funcionamiento del sistema, se realiza un análisis inductivo para establecer los componentes de la aplicación creando los siguientes diagramas:
+•	Casos de Uso
+•	Diagrama de Clases
+•	Diagrama de componentes
+•	Diagrama de Implementación
+•	Diagrama Borrador Base Datos]]></notes>
+            <depend id="11" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="15" name="Analisis de Prestaciones Sistema" color="#66ccff" meeting="false" start="2012-12-05" duration="2" complete="0" expand="true">
+            <notes><![CDATA[Generamos las funcionalidades del sistema lo cual nos arroga un diagrama del la estructura del sistema]]></notes>
+            <depend id="14" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="14" name="Analisis de Requerimientos del Sistema" color="#66ccff" meeting="false" start="2012-12-07" duration="2" complete="0" expand="true">
+            <notes><![CDATA[Se especifica lo que el sistema necesita para funcionar en cuanto a hardware y personal humano]]></notes>
+            <depend id="11" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="11" name="Realizar Pruebas a los Modelos" color="#66ccff" meeting="false" start="2012-12-12" duration="3" complete="0" priority="2" expand="true">
+            <notes><![CDATA[Se someten a prueba todos los modelos obtenidos, para comprobar que responden de acuerdo a las especificaciones establecidas para el sistema.
+Se ingresa información de prueba al modelo de la base de datos para que al igual que con los modelos poder comprobar si su estructura es la necesaria y responde a las características del sistema.
+
+Como resultado de este proceso se obtiene el diagrama general del sistema
+]]></notes>
+            <depend id="28" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="28" name="Requerimientos de Vistas de Administracion y de Usuarios" color="#66ccff" meeting="false" start="2012-12-15" duration="9" complete="0" expand="true">
+            <notes><![CDATA[Tomando el análisis de los requerimientos del sistema se procede a crear un esquema de las vistas definiendo lo que estas deben tener y las facilidades que deben prestar a los usuarios con los que interactué, al final de esta tarea se definen dos tipos de vistas 
+•	Vista de Administrador 
+•	Vistas de Usuario
+]]></notes>
+            <depend id="25" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="41" name="Desarrollo e Implementacion" color="#8cb6ce" meeting="false" start="2012-12-26" duration="181" complete="0" expand="true">
+            <notes><![CDATA[Desarrollo del Sistema	]]></notes>
+            <task id="25" name="Implementar Funciones en la Base de Datos" color="#99ff99" meeting="false" start="2012-12-26" duration="4" complete="0" expand="true">
+                <notes><![CDATA[Una vez terminada la fase de diseño (se distingue por el color azul en los diagramas) se empieza a implementar la base de datos final a la misma que se agrega funcionalidades con la ayuda de Funciones Almacenas, Vistas y Disparadores encaso de ser necesario, terminada esta actividad tenemos un diagrama de clase final y real de nuestro sistema.]]></notes>
+                <depend id="29" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="29" name="Diseño de Vistas Administrador y Usuarios" color="#99ff99" meeting="false" start="2012-12-31" duration="1" complete="0" priority="2" expand="true">
+                <notes><![CDATA[Se definen las necesidades a las cuales las interfaces de administrador deben responder especificado la estructura de las vistas.
+Las interfaces del administrador deben contener al menos las siguientes prestaciones:
+•	Crear paginas
+•	Crear contenido para las paginas
+•	Editar y/o eliminar contenidos existentes
+•	Manejar Comentarios de Usuarios
+•	Copias de seguridad de Contenidos
+Las interfaces de los Usuarios deben contener al menos las siguientes prestaciones:
+•	Navegar con fluidez a través de los contenidos
+•	Comentar los contenidos
+
+]]></notes>
+                <depend id="30" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="30" name="Maquetar Vistas Administrador" color="#99ff99" meeting="false" start="2013-01-01" duration="13" complete="0" expand="true">
+                <notes><![CDATA[Se crea el diseño para las vistas de administrador con la ayuda del framework Bootstrap de Twitter]]></notes>
+                <depend id="31" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="31" name="Maquetar Vista Usuario" color="#99ff99" meeting="false" start="2013-01-16" duration="6" complete="0" expand="true">
+                <notes><![CDATA[Se crea el diseño para las vistas de usuario con la ayuda del framework Bootstrap de Twitter]]></notes>
+                <depend id="32" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="32" name="Maquetar Vistas Adicionales" color="#99ff99" meeting="false" start="2013-01-23" duration="5" complete="0" expand="true">
+                <notes><![CDATA[Se crea el diseño para las vistas de adicionales con la ayuda del framework Bootstrap de Twitter, las vistas son:
+•	Error 404
+•	Contacto
+•	Presentación de Errores y Advertencias
+]]></notes>
+                <depend id="33" type="2" difference="0" hardness="Strong"/>
+                <depend id="34" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="33" name="Establecer La Estructura y el Manejo de las Vistas" color="#99ff99" meeting="false" start="2013-01-29" duration="11" complete="0" expand="true">
+                <notes><![CDATA[Se establece la forma más optima de manejar las vistas, separándolas en fragmentos de código para luego armarlas de acuerdo a las necesidades.]]></notes>
+                <depend id="35" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="34" name="Diseño Basico del Sistema" color="#99ff99" meeting="false" start="2013-01-29" duration="52" complete="0" priority="2" expand="true">
+                <notes><![CDATA[Establecer la estructura del sistema, para lograr un sistema robusto y compatible las herramientas usadas son las siguientes:
+•	HtmlBoilerplate
+•	CodeIgniter
+•	Bootstrap
+
+Con esto obtengo una estructura definida para mi sistema.]]></notes>
+                <depend id="35" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="35" name="Implementación de Diagramas de Clases" color="#99ff99" meeting="false" start="2013-03-30" duration="22" complete="0" expand="true">
+                <notes><![CDATA[Se implementa los modelos, convirtiendo los gráficos en códigos de programación]]></notes>
+                <depend id="38" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="38" name="Depuracion Sistema" color="#99ff99" meeting="false" start="2013-04-25" duration="37" complete="0" priority="2" expand="true">
+                <notes><![CDATA[Se buscan y corrigen errores de programación]]></notes>
+                <depend id="37" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="37" name="Pruebas de Funcionamiento" color="#99ff99" meeting="false" start="2013-06-07" duration="12" complete="0" expand="true">
+                <notes><![CDATA[Se comprueba que lo obtenido sea lo mismo que lo planeado.]]></notes>
+                <depend id="40" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="40" name="Implementar Funciones no estipuladas" color="#ff3333" meeting="false" start="2013-06-21" duration="25" complete="0" priority="4" expand="true">
+                <notes><![CDATA[Se implementan funciones que no se estipularon en el momento de diseño del sistema]]></notes>
+                <depend id="39" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="39" name="Distribucion Sistema" color="#00cc00" meeting="false" start="2013-07-20" duration="4" complete="0" expand="true">
+                <notes><![CDATA[Se pasa a limpio la documentación, se genera manuales de administrador y de usuario, se procede con el empaquetamiento y distribución del sistema para entornos de producción.]]></notes>
+            </task>
+        </task>
+        <task id="151" name="Correcciones De Problemas" color="#8cb6ce" meeting="false" start="2013-07-24" duration="16" complete="0" expand="true">
+            <notes><![CDATA[Se corrigen posibles problemas no detectados en la fase de depuración]]></notes>
+        </task>
+        <task id="152" name="Fin de Proyecto" color="#8cb6ce" meeting="false" start="2013-08-15" duration="1" complete="0" expand="true">
+            <notes><![CDATA[Se termina el Proyecto y se entrega como un producto optimo para su distribucion]]></notes>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Eduardo Villota" function="Default:1" contacts="eduardouio@hotmail.com" phone="0992936569"/>
+        <resource id="1" name="Desarrollador" function="SoftwareDevelopment:2" contacts="eduardouio@hotmail.com" phone="0992936569"/>
+        <resource id="2" name="Documentador" function="SoftwareDevelopment:3" contacts="eduardouio@hotmail.com" phone="0992936569"/>
+        <resource id="3" name="Pruebas" function="SoftwareDevelopment:4" contacts="eduardouio@hotmail.com" phone="0992936569"/>
+        <resource id="4" name="Diseñador" function="SoftwareDevelopment:5" contacts="eduardouio@hotmail.com" phone="0992936569"/>
+        <resource id="5" name="Análisis" function="SoftwareDevelopment:8" contacts="eduardouio@hotmail.com" phone="0992936569"/>
+    </resources>
+    <allocations>
+        <allocation task-id="2" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="15" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="14" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="25" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="28" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="29" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="31" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="30" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="32" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="33" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="34" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="38" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="37" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="40" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="39" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="25" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="33" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="34" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="35" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="38" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="37" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="40" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="39" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="2" function="SoftwareDevelopment:3" responsible="true" load="100.0"/>
+        <allocation task-id="15" resource-id="2" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="2" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="28" resource-id="2" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="33" resource-id="2" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="34" resource-id="2" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="35" resource-id="2" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="40" resource-id="2" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="39" resource-id="2" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="3" function="SoftwareDevelopment:4" responsible="true" load="100.0"/>
+        <allocation task-id="37" resource-id="3" function="SoftwareDevelopment:4" responsible="true" load="100.0"/>
+        <allocation task-id="28" resource-id="4" function="SoftwareDevelopment:5" responsible="false" load="100.0"/>
+        <allocation task-id="31" resource-id="4" function="SoftwareDevelopment:5" responsible="true" load="100.0"/>
+        <allocation task-id="30" resource-id="4" function="SoftwareDevelopment:5" responsible="false" load="100.0"/>
+        <allocation task-id="32" resource-id="4" function="SoftwareDevelopment:5" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="5" function="SoftwareDevelopment:8" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="5" function="SoftwareDevelopment:8" responsible="false" load="100.0"/>
+        <allocation task-id="15" resource-id="5" function="SoftwareDevelopment:8" responsible="false" load="100.0"/>
+        <allocation task-id="14" resource-id="5" function="SoftwareDevelopment:8" responsible="false" load="100.0"/>
+        <allocation task-id="25" resource-id="5" function="SoftwareDevelopment:8" responsible="false" load="100.0"/>
+        <allocation task-id="28" resource-id="5" function="SoftwareDevelopment:8" responsible="false" load="100.0"/>
+        <allocation task-id="29" resource-id="5" function="SoftwareDevelopment:8" responsible="false" load="100.0"/>
+        <allocation task-id="40" resource-id="5" function="SoftwareDevelopment:8" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <taskdisplaycolumns>
+        <displaycolumn property-id="tpd2" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd9" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd8" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd6" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd10" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd11" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd1" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd7" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd0" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd3" order="0" width="226" visible="true"/>
+        <displaycolumn property-id="tpd4" order="1" width="119" visible="true"/>
+        <displaycolumn property-id="tpd5" order="2" width="109" visible="true"/>
+    </taskdisplaycolumns>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
